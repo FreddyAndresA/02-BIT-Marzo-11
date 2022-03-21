@@ -1,0 +1,70 @@
+:root {
+    --themeColor: #FFFC00;
+    --black: #000;
+    --gray: #fafafa;
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.links a {
+    color: var(--black) !important;
+    border-bottom: 2px solid transparent;
+}
+
+.links a:hover {
+    color: var(--black);
+    border-bottom: 2px solid var(--gray);
+}
+
+.main {
+    background-color: var(--themeColor);
+}
+
+.video {
+    width: 70%;
+    border-radius: 20px;
+}
+
+.button {
+    background-color: var(--black);
+}
+
+.store {
+    width: 45%;
+}
+
+.font-custom {
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+    .video {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 991.98px) {
+    .logo {
+        margin-bottom: -60%;
+    }
+
+    .link-active {
+        border-bottom: 2px solid var(--black) !important;
+    }
+
+    .links a:hover {
+        color: var(--black);
+        border-bottom: 2px solid var(--black);
+    }
+
+    .video {
+        width: 80%;
+    }
+
+    .store {
+        width: 30%;
+    }
+}
